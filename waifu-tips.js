@@ -1,6 +1,6 @@
 /*
- * live2d-widget-cdn
- * https://github.com/sarakale/live2d-widget-cdn
+ * live2d-widget
+ * https://github.com/sarakale/live2d-widget
  */
 
 function loadWidget(config) {
