@@ -1,4 +1,4 @@
-# live2d-widget-cdn
+# live2d-widget
 
 live2D看板娘，基于 [live2d-widget](https://github.com/stevenjoezhang/live2d-widget) 修改，专为自己博客使用，如果您有需要，也可以下载使用。
 
@@ -16,7 +16,7 @@ iconfont是来自 [hexo-theme-nexmoe](https://github.com/nexmoe/hexo-theme-nexmo
 
 然后将这一行代码加入 `<head>` 或 `<body>`，即可展现出效果：
 ```html
-<script src="https://cdn.jsdelivr.net/gh/sarakale/live2d-widget/autoload.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/sarakale/live2d-widget@master/autoload.js"></script>
 ```
 
 一般在主题的"layout/_layout.swig"中修改，我是使用了[hexo-theme-butterfly](https://github.com/jerryc127/hexo-theme-butterfly)这个主题，所以要在 `butterfly/layout/includes/layout.pug` 文件的`body`末尾加入，注意空格缩进：
@@ -33,7 +33,7 @@ body
     script(src=url_for(item))
   include ./additional-js.pug
   //- live2d 看板娘
-  script(src="https://cdn.jsdelivr.net/gh/sarakale/live2d-widget/autoload.js")
+  script(src="https://cdn.jsdelivr.net/gh/sarakale/live2d-widget@master/autoload.js")
 ```
 
 ## 修改
@@ -72,13 +72,13 @@ git clone https://github.com/SaraKale/live2d-widget.git
 ```
 然后别忘了在 `autoload.js` 修改live2d_path地址
 ```js
-const live2d_path = "https://cdn.jsdelivr.net/gh/username/live2d-widget/";
+const live2d_path = "https://cdn.jsdelivr.net/gh/username/live2d-widget@master/";
 ```
 将 `username` 替换为你的 GitHub 用户名即可。
 
 也别忘了在`<head>` 或 `<body>`加载autoload.js文件
 ```html
-<script src="https://cdn.jsdelivr.net/gh/username/live2d-widget/autoload.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/username/live2d-widget@master/autoload.js"></script>
 ```
 
 ## 模型预览
