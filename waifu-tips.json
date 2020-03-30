@@ -1,0 +1,260 @@
+{
+	"mouseover": [{
+		"selector": "#waifu #live2d",
+		"text": ["你在抚摸我的头吗？", "多和我说说话吧～", "你要干嘛呀？", "咦？", "怕怕(ノ≧∇≦)ノ", "我是不是超级可爱？嘿嘿～", "可以和我一起拍照哦！", "再摸头人家长不高了呢！", "希望我的笑容为您抚平忧愁～", "用鼠标围绕我我会跟随你的脚步～", "遇到问题了就看看右边按钮吧"]
+	}, {
+		"selector": "#waifu-tool .fa-comment",
+		"text": ["猜猜我要说些什么？", "我从青蛙王子那里听到了不少人生经验。"]
+	}, {
+		"selector": "#waifu-tool .icon-bilibili",
+		"text": ["这里有主人的作品哦～", "点击它可以阅览主人的全部稿件", "去看看主人的优秀作品吧！", "主人时常会摸鱼，更新看心情～"]
+	}, {
+		"selector": "#waifu-tool .fa-user-circle",
+		"text": ["要见见我的小伙伴们吗？", "要见见我的姐姐嘛？", "想要看我妹妹嘛？", "要切换看板娘吗？"]
+	}, {
+		"selector": "#waifu-tool .fa-street-view",
+		"text": ["喜欢换装 PLAY 吗？", "这次要扮演什么呢？", "变装！", "让我们看看接下来会发生什么！"]
+	}, {
+		"selector": "#waifu-tool .fa-camera-retro",
+		"text": ["你要给我拍照呀？一二三～茄子～", "要不，我们来合影吧！", "保持微笑就好了～"]
+	}, {
+		"selector": "#waifu-tool .fa-info-circle",
+		"text": ["想要知道更多关于我的事么？", "我是来自live2d-widget项目，主人基于这项目修改了她喜欢的样子～", "你想深入了解我什么呢？"]
+	}, {
+		"selector": "#waifu-tool .fa-times",
+		"text": ["到了要说再见的时候了吗？", "欢迎下次光临呀！", "别忘了再来主人这里做客～", "我们，还能再见面吗……", "希望这里的文章对您有帮助～"]
+	}, {
+		"selector": ".icon-weibo",
+		"text": ["看看主人的微博日常～", "主人常在微博逛～"]
+	}, {
+		"selector": ".icon-bilibili",
+		"text": ["这里有主人的作品哦～", "点击它可以阅览主人的全部稿件", "去看看主人的优秀作品吧！", "主人时常会摸鱼，更新看心情～"]
+	}, {
+		"selector": ".icon-youtube",
+		"text": ["这里有主人的作品哦～", "这里海外作品站点，可能要挂魔法梯子去看噢～", "通往海外的作品分享～让更多人看主人的作品！"]
+	}, {
+		"selector": ".social-icon .fa-book",
+		"text": ["这里是主人的LOFTER作品站", "主人在LOFTER也开通了～方便交流～"]
+	}, {
+		"selector": ".icon-steam",
+		"text": ["看看主人玩哪些游戏！", "可以瞅瞅主人的游戏库！"]
+	}, {
+		"selector": ".icon-github",
+		"text": ["主人不是专业程序员，只是偶尔上来看看大神们的项目。", "主人会看到好的项目Star～"]
+	}, {
+		"selector": ".fa-home",
+		"text": ["点击前往首页，想回到上一页可以使用浏览器的后退功能哦。", "点它就可以回到首页啦！", "回首页看看吧。"]
+	}, {
+		"selector": ".fa-user",
+		"text": ["你想知道我家主人是谁吗？", "这里有一些关于我家主人的秘密哦，要不要看看呢？", "发现主人出没地点！"]
+	}, {
+		"selector": ".fa-tags",
+		"text": ["点击就可以看文章的标签啦！", "点击来查看所有标签哦。", "快看看这里都有什么呢！"]
+	}, {
+		"selector": ".fa-folder-open",
+		"text": ["文章都分类好啦～", "点击来查看文章分类哦。", "快看看这里都有什么呢！"]
+	}, {
+		"selector": ".fa-archive",
+		"text": ["翻页比较麻烦吗，那就来看看文章归档吧。", "文章目录都整理在这里啦！", "快看看这里都有什么呢？"]
+	}, {
+		"selector": ".fa-link",
+		"text": ["这是我的朋友们哦ヾ(◍°∇°◍)ヾ", "要去大佬们的家看看吗？", "要去拜访一下我的朋友们吗？"]
+	}, {
+		"selector": ".md-links-item",
+		"text": ["这是我的朋友们哦ヾ(◍°∇°◍)ヾ", "要去大佬们的家看看吗？", "要去拜访一下我的朋友们吗？"]
+	}, {
+		"selector": ".fa-search",
+		"text": ["找不到想看的内容？搜索看看吧！", "在找什么东西呢，需要帮忙吗？"]
+	}, {
+		"selector": ".card-info-avatar",
+		"text": ["我家主人好看吗？", "这是我家可爱的主人(*´∇｀*)"]
+	}, {
+		"selector": ".fa-music",
+		"text": ["去听听歌吗？", "来这里听歌吧～享受悠闲的时光～"]
+	}, {
+		"selector": ".fa-film",
+		"text": ["这里是主人看过的番剧", "去看看那些好看的动画吧！"]
+	}, {
+		"selector": ".bangumi-title",
+		"text": ["去看看这部动画吧！", "这动画十分好看！主人很喜欢～", "好作品需要慢慢体会的哟～"]
+	}, {	
+		"selector": ".fa-steam",
+		"text": ["看看主人玩哪些游戏！", "可以瞅瞅主人的游戏库！"]
+	}, {
+		"selector": ".steamItem",
+		"text": ["主人喜欢的游戏真多呀～", "去看看这部游戏吧！", "主人喜欢的类型很多，只要是优秀游戏她都会去玩～", "好游戏要静心欣赏的～不能乱了心神～"]
+	}, {	
+		"selector": ".icon-rss",
+		"text": ["这里可以使用 RSS 订阅呢！", "利用 feed 订阅器，就能快速知道博客有没有更新了呢。"]
+	}, {
+		"selector": ".cc-opacity, .post-copyright",
+		"text": ["要记得规范转载哦。", "所有文章均采用 CC BY-NC-SA 4.0 许可协议～", "转载前要先注意下文章的版权协议呢。"]
+	}, {
+		"selector": ".fa-user",
+		"text": ["这里有关于主人的信息！", "来了解我可爱的主人吧～"]
+	}, {
+		"selector": "#qrcode",
+		"text": ["手机扫一下就能继续看，很方便呢～", "扫一扫，打开新世界的大门！"]
+	}, {
+		"selector": ".fancybox img, img.medium-zoom-image",
+		"text": ["点击图片可以放大呢！"]
+	}, {
+		"selector": ".fa-clipboard",
+		"text": ["代码可以直接点击复制哟。", "代码高亮很直观吧～看得懂吗？", " 语言创造无限可能性～"]
+	}, {
+		"selector": ".tag-cloud a']",
+		"text": ["要去看看 <span>{text}</span> 标签么？", "点它可以查看此标签下的所有文章哟！"]
+	}, {
+		"selector": ".category-list-link']",
+		"text": ["要去看看 <span>{text}</span> 分类么？", "点它可以查看此分类下的所有文章哟！"]
+	}, {
+		"selector": ".article-title",
+		"text": ["要看看 <span>{text}</span> 这篇文章吗？"]
+	}, {
+		"selector": ".fa-comment']",
+		"text": ["要去看看评论吗？"]
+	}, {
+		"selector": ".fa-arrow-up",
+		"text": ["点它就可以回到顶部啦！", "又回到最初的起点～", "要回到开始的地方么？"]
+	}, {
+		"selector": ".fa-comments",
+		"text": ["直达评论看看精彩评论！", "看看大家都说了什么？"]
+	}, {
+		"selector": ".fa-cog",
+		"text": ["这是设置，可以点击看更多功能", "看看有没有需要帮助你的功能？"]
+	}, {
+		"selector": ".fa-moon-o",
+		"text": ["可以换成夜间模式～", "白天的风景很美丽～", "看看夜晚是什么样子！"]
+	}, {
+		"selector": ".fa-sun-o",
+		"text": ["哇，变黑了！", "再点击也可以换回白天模式！", "神秘的天气变化～"]
+	}, {
+		"selector": ".translate_chn_to_cht",
+		"text": ["可以切换简体/繁体语言哦～", "如果您是繁體用戶，可以點擊切換繁體。", "如果您是简体用户，可以点击切换简体。"]
+	}, {
+		"selector": ".fa-plus",
+		"text": ["可以放大文章字体！", "如果您有视力障碍，可以尽情放大到您看清楚文字～"]
+	}, {
+		"selector": ".fa-minus",
+		"text": ["可以缩小文章字体！", "如果觉得文章字很大，可以稍微缩小点～"]
+	}, {
+		"selector": ".fa-book",
+		"text": ["点击可以切换阅读模式", "清新的样式，是不是很宁静～", "慢慢欣赏文章～"]
+	}, {
+		"selector": ".reward-container",
+		"text": ["我是不是棒棒哒～快给我点赞吧！", "要打赏我嘛？好期待啊～", "主人最近在吃土呢，很辛苦的样子，给她一些钱钱吧～"]
+	}, {
+		"selector": "#wechat",
+		"text": ["这是我的微信二维码～"]
+	}, {
+		"selector": "#alipay",
+		"text": ["这是我的支付宝哦！"]
+	}, {
+		"selector": "#bitcoin",
+		"text": ["这是我的比特币账号！"]
+	}, {
+		"selector": ".post_share",
+		"text": ["好东西要让更多人知道才行哦。", "觉得文章有帮助的话，可以分享给更多需要的朋友呢。"]
+	}, {
+		"selector": ".social-share-icon .icon-weibo",
+		"text": ["微博？来分享一波喵！"]
+	}, {
+		"selector": ".social-share-icon .icon-wechat",
+		"text": ["分享到微信吧！"]
+	}, {
+		"selector": ".social-share-icon .icon-qq",
+		"text": ["QQ 空间，一键转发，耶～"]
+	}, {
+		"selector": ".social-share-icon .icon-twitter",
+		"text": ["Twitter？好像是不存在的东西？"]
+	}, {
+		"selector": ".social-share-icon .icon-facebook",
+		"text": ["emmm…FB 好像也是不存在的东西？"]
+	}, {
+		"selector": ".next-post .pull_right']",
+		"text": ["来看看下一篇文章吧。", "点它可以看下一篇文章哦！", "要翻到下一篇文章吗？"]
+	}, {
+		"selector": ".prev-post .pull_left']",
+		"text": ["来看看上一篇文章吧。", "点它可以看上一篇文章哦！", "要翻到上一篇文章吗？"]
+	}, {
+		"selector": ".extend.next",
+		"text": ["去下一页看看吧。", "点它可以前进哦！", "要翻到下一页吗？"]
+	}, {
+		"selector": ".extend.prev",
+		"text": ["去上一页看看吧。", "点它可以后退哦！", "要翻到上一页吗？"]
+	}, {
+		"selector": "input.vnick",
+		"text": ["该怎么称呼你呢？", "留下你的尊姓大名！"]
+	}, {
+		"selector": ".vmail",
+		"text": ["可留下你的邮箱，不然就是无头像人士了！", "记得设置好 Gravatar 头像哦！", "为了方便通知你最新消息，一定要留下邮箱！"]
+	}, {
+		"selector": ".vlink",
+		"text": ["快快告诉我你的家在哪里，好让我去参观参观！"]
+	}, {
+		"selector": ".veditor",
+		"text": ["欢迎留下您的宝贵留言～", "要说点什么吗？", "觉得博客不错？快来留言和主人交流吧！"]
+	}, {
+		"selector": ".vcontrol a",
+		"text": ["你会不会熟练使用 Markdown 呀？", "使用 Markdown 让评论更美观吧～"]
+	}, {
+		"selector": ".vemoji-btn",
+		"text": ["要插入一个萌萌哒的表情吗？", "要来一发表情吗？"]
+	}, {
+		"selector": ".vpreview-btn",
+		"text": ["要预览一下你的发言吗？", "快看看你的评论有多少负熵！"]
+	}, {
+		"selector": ".vsubmit",
+		"text": ["评论没有审核，要对自己的发言负责哦～", "要提交了吗，请耐心等待回复哦～"]
+	}, {
+		"selector": ".vcontent",
+		"text": ["哇，快看看这个精彩评论！", "如果有疑问，请尽快留言哦～"]
+	}],
+	"click": [{
+		"selector": "#waifu #live2d",
+		"text": ["是…是不小心碰到了吧…", "你在抚摸我的头吗？", "你看到我的月亮伙伴了吗？", "呜！好像被谁碰到了⌇●﹏●⌇", "我是不是超级可爱？嘿嘿～", "再摸头人家长不高了呢！", "不如到歌单页面听听歌吧～", "遇到问题了就看看右边按钮吧"]
+	}, {
+		"selector": ".veditor",
+		"text": ["要吐槽些什么呢？", "一定要认真填写哟～", "有什么想说的吗？"]
+	}, {
+		"selector": ".vsubmit",
+		"text": ["输入验证码就可以提交评论啦～"]
+	}],
+	"seasons": [{
+		"date": "01/01",
+		"text": "<span>元旦</span>了呢，新的一年又开始了，今年是{year}年～"
+	}, {
+		"date": "02/14",
+		"text": "又是一年<span>情人节</span>，{year}年找到对象了嘛～"
+	}, {
+		"date": "03/08",
+		"text": "今天是<span>国际妇女节</span>！祝愿美丽的少女/母亲们都幸福快乐喔～"
+	}, {
+		"date": "03/12",
+		"text": "今天是<span>植树节</span>，要保护环境呀！"
+	}, {
+		"date": "04/01",
+		"text": "悄悄告诉你一个秘密～<span>今天是愚人节，不要被骗了哦～</span>"
+	}, {
+		"date": "05/01",
+		"text": "今天是<span>五一劳动节</span>，计划好假期去哪里了吗～"
+	}, {
+		"date": "06/01",
+		"text": "<span>儿童节</span>了呢，快活的时光总是短暂，要是永远长不大该多好啊…"
+	}, {
+		"date": "09/03",
+		"text": "<span>中国人民抗日战争胜利纪念日</span>，铭记历史、缅怀先烈、珍爱和平、开创未来。"
+	}, {
+		"date": "09/10",
+		"text": "今天是<span>教师节</span>，在学校要给老师问声好呀～"
+	}, {
+		"date": "10/01",
+		"text": "<span>国庆节</span>到了，为祖国母亲庆生！"
+	}, {
+		"date": "11/05-11/12",
+		"text": "今年的<span>双十一</span>是和谁一起过的呢～"
+	}, {
+		"date": "12/20-12/31",
+		"text": "这几天是<span>圣诞节</span>，主人肯定又去剁手买买买了～"
+	}]
+}
