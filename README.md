@@ -42,8 +42,6 @@ body
 ```
 live2d:
   enable: true
-=======
->>>>>>> cfc921e366289b901a5d0ec890710abff7c7e484
 ```
 
 ## 修改
