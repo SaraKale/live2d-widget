@@ -34,6 +34,7 @@ body
   include ./additional-js.pug
   //- live2d 看板娘
   script(src="https://cdn.jsdelivr.net/gh/sarakale/live2d-widget@latest/autoload.js")
+<<<<<<< HEAD
 ```
 
 最后在博客目录下打开`_config.yml`添加下面：
@@ -41,6 +42,8 @@ body
 ```
 live2d:
   enable: true
+=======
+>>>>>>> cfc921e366289b901a5d0ec890710abff7c7e484
 ```
 
 ## 修改
