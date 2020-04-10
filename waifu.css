@@ -52,9 +52,9 @@
 	border-radius: 12px;
 	box-shadow: 0 3px 10px 2px #8f989e;
 	font-size: 14px;
-	line-height: 24px;
+	line-height: 22px;
 	margin: -30px 20px;
-	min-height: 70px;
+	min-height: 75px;
 	opacity: 0;
 	overflow: hidden;
 	padding: 5px 10px;
@@ -109,7 +109,7 @@
 	background-color: #ffffff80;
 }
 
-/* 按钮图标 butterfly主题夜间模式 */
+/* butterfly主题夜间模式适应 */
 [data-theme='dark'] #waifu-tool span {
     color: #5b6c7d;
 	background-color: rgba(255, 255, 255, 0);
@@ -117,9 +117,16 @@
 [data-theme='dark'] #waifu-tool span:hover {
 	color: #0684bd; 
 }
-
 #waifu-tool span:hover {
 	color: #0684bd; /* #34495e */
+}
+[data-theme='dark'] #waifu #live2d { opacity: 0.7; }
+
+[data-theme='dark'] #waifu-tips {
+    color: #fff;
+    background-color: #47494c;
+    border: 1px solid #010202;
+    box-shadow: 0 3px 10px 2px #8f989e38;
 }
 
 /* bilibili */

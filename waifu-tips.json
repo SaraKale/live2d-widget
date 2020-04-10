@@ -1,7 +1,7 @@
 {
 	"mouseover": [{
 		"selector": "#waifu #live2d",
-		"text": ["你在抚摸我的头吗？", "多和我说说话吧～", "你要干嘛呀？", "咦？", "怕怕(ノ≧∇≦)ノ", "我是不是超级可爱？嘿嘿～", "可以和我一起拍照哦！", "再摸头人家长不高了呢！", "希望我的笑容为您抚平忧愁～", "用鼠标围绕我我会跟随你的脚步～", "遇到问题了就看看右边按钮吧"]
+		"text": ["你在抚摸我的头吗？", "多和我说说话吧～", "你要干嘛呀？", "咦？", "怕怕(ノ≧∇≦)ノ", "我是不是超级可爱？嘿嘿～", "可以和我一起拍照哦！", "再摸头人家长不高了呢！", "希望我的笑容为您抚平忧愁～", "用鼠标围绕我我会跟随你的脚步～", "遇到问题了就看看右边按钮吧～", "可以在右边按钮切换日间/夜间模式～"]
 	}, {
 		"selector": "#waifu-tool .fa-comment",
 		"text": ["猜猜我要说些什么？", "我从青蛙王子那里听到了不少人生经验。"]
@@ -24,6 +24,9 @@
 		"selector": "#waifu-tool .fa-times",
 		"text": ["到了要说再见的时候了吗？", "欢迎下次光临呀！", "别忘了再来主人这里做客～", "我们，还能再见面吗……", "希望这里的文章对您有帮助～"]
 	}, {
+		"selector": ".fa-bookmark",
+		"text": ["收藏主人的网站吧～", "如果觉得网站有用可以加入收藏夹！"]
+	}, {	
 		"selector": ".icon-weibo",
 		"text": ["看看主人的微博日常～", "主人常在微博逛～"]
 	}, {
@@ -33,7 +36,7 @@
 		"selector": ".icon-youtube",
 		"text": ["这里有主人的作品哦～", "这里海外作品站点，可能要挂魔法梯子去看噢～", "通往海外的作品分享～让更多人看主人的作品！"]
 	}, {
-		"selector": ".social-icon .fa-book",
+		"selector": ".icon-container",
 		"text": ["这里是主人的LOFTER作品站", "主人在LOFTER也开通了～方便交流～"]
 	}, {
 		"selector": ".icon-steam",
@@ -63,11 +66,14 @@
 		"selector": ".md-links-item",
 		"text": ["这是我的朋友们哦ヾ(◍°∇°◍)ヾ", "要去大佬们的家看看吗？", "要去拜访一下我的朋友们吗？"]
 	}, {
-		"selector": ".fa-search",
+		"selector": ".fa-search .fa-fw",
 		"text": ["找不到想看的内容？搜索看看吧！", "在找什么东西呢，需要帮忙吗？"]
 	}, {
+		"selector": ".fa-list",
+		"text": ["看看主人的作品吧！", "主人弄好了作品清单哦，可以去看看～"]
+	}, {
 		"selector": ".card-info-avatar",
-		"text": ["我家主人好看吗？", "这是我家可爱的主人(*´∇｀*)"]
+		"text": ["我家主人好看吗？", "这是我家可爱的主人(*´∇｀*)", "圆滚滚～滚来滚去", "主人的头像来自<span>CLANNAD</span>的团子大家族～"]
 	}, {
 		"selector": ".fa-music",
 		"text": ["去听听歌吗？", "来这里听歌吧～享受悠闲的时光～"]
@@ -156,19 +162,19 @@
 		"selector": ".post_share",
 		"text": ["好东西要让更多人知道才行哦。", "觉得文章有帮助的话，可以分享给更多需要的朋友呢。"]
 	}, {
-		"selector": ".social-share-icon .icon-weibo",
+		"selector": ".post_share .social-share-icon .icon-weibo",
 		"text": ["微博？来分享一波喵！"]
 	}, {
-		"selector": ".social-share-icon .icon-wechat",
+		"selector": ".post_share .social-share-icon .icon-wechat",
 		"text": ["分享到微信吧！"]
 	}, {
-		"selector": ".social-share-icon .icon-qq",
+		"selector": ".post_share .social-share-icon .icon-qq",
 		"text": ["QQ 空间，一键转发，耶～"]
 	}, {
-		"selector": ".social-share-icon .icon-twitter",
+		"selector": ".post_share .social-share-icon .icon-twitter",
 		"text": ["Twitter？好像是不存在的东西？"]
 	}, {
-		"selector": ".social-share-icon .icon-facebook",
+		"selector": ".post_share .social-share-icon .icon-facebook",
 		"text": ["emmm…FB 好像也是不存在的东西？"]
 	}, {
 		"selector": ".next-post .pull_right']",
