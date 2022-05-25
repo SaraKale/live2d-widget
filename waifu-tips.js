@@ -1,5 +1,5 @@
 /*
- * live2d-widget v0.0.2
+ * live2d-widget v0.0.3
  * https://github.com/sarakale/live2d-widget
  */
 
@@ -65,7 +65,7 @@ function loadWidget(config) {
 				window.ASTEROIDSPLAYERS.push(new Asteroids());
 			} else {
 				let script = document.createElement("script");
-				script.src = "https://cdn.jsdelivr.net/gh/GalaxyMimi/CDN/asteroids.js";
+				script.src = "https://fastly.jsdelivr.net/gh/GalaxyMimi/CDN/asteroids.js";
 				document.head.appendChild(script);
 			}
 		});

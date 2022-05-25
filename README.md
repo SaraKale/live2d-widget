@@ -9,35 +9,26 @@ live2D看板娘，基于 [live2d-widget](https://github.com/stevenjoezhang/live2
 在 `<head>` 中加入下面两行，因为需要Font Awesome和iconfont支持，请确保相关样式表已在页面中加载，否则无法正常显示，如果网页中已经加载了 Font Awesome，就不要重复加载了，仅需要加载`iconfont`即可。
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SaraKale/sarakale.github.io/blog/css/iconfont/iconfont.css">
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/SaraKale/sarakale.github.io/blog/css/iconfont/iconfont.css">
 ```
 iconfont是来自 [hexo-theme-nexmoe](https://github.com/nexmoe/hexo-theme-nexmoe)，因为要加载B站图标。
 
 然后将这一行代码加入 `<head>` 或 `<body>`，即可展现出效果：
 ```html
-<script src="https://cdn.jsdelivr.net/gh/sarakale/live2d-widget@latest/autoload.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/sarakale/live2d-widget@latest/autoload.js"></script>
 ```
 
-一般在主题的"layout/_layout.swig"中修改，我是使用了[hexo-theme-butterfly](https://github.com/jerryc127/hexo-theme-butterfly)这个主题，所以要在 `butterfly/layout/includes/layout.pug` 文件的`body`末尾加入，注意空格缩进：
+一般在主题的"layout/_layout.swig"中修改，我是使用了[hexo-theme-butterfly](https://github.com/jerryc127/hexo-theme-butterfly)这个主题，所以要在 `butterfly/_config.yml` 文件的`Inject`处添加，注意空格缩进：
 ```js
-head
-  include ./head.pug
-body
-
-  ..........
-
-  include ./rightside.pug
-  !=partial('includes/search/index', {}, {cache:theme.fragment_cache})
-  each item in theme.CDN_USE.js
-    script(src=url_for(item))
-  include ./additional-js.pug
-  //- live2d 看板娘
-  script(src="https://cdn.jsdelivr.net/gh/sarakale/live2d-widget@latest/autoload.js")
-<<<<<<< HEAD
+inject:
+  head:
+    - <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/SaraKale/sarakale.github.io/blog/css/iconfont/iconfont.css">
+  bottom:
+    - <script src="https://fastly.jsdelivr.net/gh/sarakale/live2d-widget@latest/autoload.js"></script>
 ```
 
-最后在博客目录下打开`_config.yml`添加下面：
+最后在博客根目录下打开`_config.yml`添加下面：
 
 ```
 live2d:
@@ -80,13 +71,13 @@ git clone https://github.com/SaraKale/live2d-widget.git
 ```
 然后别忘了在 `autoload.js` 修改live2d_path地址
 ```js
-const live2d_path = "https://cdn.jsdelivr.net/gh/username/live2d-widget@latest/";
+const live2d_path = "https://fastly.jsdelivr.net/gh/username/live2d-widget@latest/";
 ```
 将 `username` 替换为你的 GitHub 用户名即可。
 
 也别忘了在`<head>` 或 `<body>`加载autoload.js文件
 ```html
-<script src="https://cdn.jsdelivr.net/gh/username/live2d-widget@latest/autoload.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/username/live2d-widget@latest/autoload.js"></script>
 ```
 
 ## 模型预览

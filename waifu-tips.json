@@ -72,7 +72,7 @@
 		"selector": ".fa-list",
 		"text": ["看看主人的作品吧！", "主人弄好了作品清单哦，可以去看看～"]
 	}, {
-		"selector": ".card-info-avatar",
+		"selector": ".avatar-img",
 		"text": ["我家主人好看吗？", "这是我家可爱的主人(*´∇｀*)", "圆滚滚～滚来滚去", "主人的头像来自<span>CLANNAD</span>的团子大家族～"]
 	}, {
 		"selector": ".fa-music",
@@ -102,16 +102,16 @@
 		"selector": "#qrcode",
 		"text": ["手机扫一下就能继续看，很方便呢～", "扫一扫，打开新世界的大门！"]
 	}, {
-		"selector": ".fancybox img, img.medium-zoom-image",
+		"selector": "#article-container img",
 		"text": ["点击图片可以放大呢！"]
 	}, {
-		"selector": ".fa-clipboard",
+		"selector": ".copy-button",
 		"text": ["代码可以直接点击复制哟。", "代码高亮很直观吧～看得懂吗？", " 语言创造无限可能性～"]
 	}, {
-		"selector": ".tag-cloud a']",
+		"selector": ".post-meta__tags a']",
 		"text": ["要去看看 <span>{text}</span> 标签么？", "点它可以查看此标签下的所有文章哟！"]
 	}, {
-		"selector": ".category-list-link']",
+		"selector": ".card-category-list-name']",
 		"text": ["要去看看 <span>{text}</span> 分类么？", "点它可以查看此分类下的所有文章哟！"]
 	}, {
 		"selector": ".article-title",
@@ -120,32 +120,26 @@
 		"selector": ".fa-comment']",
 		"text": ["要去看看评论吗？"]
 	}, {
-		"selector": ".fa-arrow-up",
-		"text": ["点它就可以回到顶部啦！", "又回到最初的起点～", "要回到开始的地方么？"]
-	}, {
 		"selector": ".fa-comments",
 		"text": ["直达评论看看精彩评论！", "看看大家都说了什么？"]
+	}, {
+		"selector": ".fa-grin-wink']",
+		"text": ["看看主人吐槽小日常～", "这里是主人的秘密基地！", "生活需要丰富多彩～"]
+	},{
+		"selector": ".fa-arrow-up",
+		"text": ["点它就可以回到顶部啦！", "又回到最初的起点～", "要回到开始的地方么？"]
 	}, {
 		"selector": ".fa-cog",
 		"text": ["这是设置，可以点击看更多功能", "看看有没有需要帮助你的功能？"]
 	}, {
-		"selector": ".fa-moon-o",
+		"selector": ".fa-adjust",
 		"text": ["可以换成夜间模式～", "白天的风景很美丽～", "看看夜晚是什么样子！"]
 	}, {
-		"selector": ".fa-sun-o",
-		"text": ["哇，变黑了！", "再点击也可以换回白天模式！", "神秘的天气变化～"]
-	}, {
-		"selector": ".translate_chn_to_cht",
-		"text": ["可以切换简体/繁体语言哦～", "如果您是繁體用戶，可以點擊切換繁體。", "如果您是简体用户，可以点击切换简体。"]
-	}, {
-		"selector": ".fa-plus",
-		"text": ["可以放大文章字体！", "如果您有视力障碍，可以尽情放大到您看清楚文字～"]
-	}, {
-		"selector": ".fa-minus",
-		"text": ["可以缩小文章字体！", "如果觉得文章字很大，可以稍微缩小点～"]
-	}, {
-		"selector": ".fa-book",
+		"selector": ".fa-book-open",
 		"text": ["点击可以切换阅读模式", "清新的样式，是不是很宁静～", "慢慢欣赏文章～"]
+	}, {
+		"selector": "#translateLink",
+		"text": ["可以切换简体/繁體语言哦～", "如果您是繁體用戶，可以點擊切換繁體。", "如果您是简体用户，可以点击切换简体。"]
 	}, {
 		"selector": ".reward-container",
 		"text": ["我是不是棒棒哒～快给我点赞吧！", "要打赏我嘛？好期待啊～", "主人最近在吃土呢，很辛苦的样子，给她一些钱钱吧～"]
@@ -156,80 +150,74 @@
 		"selector": "#alipay",
 		"text": ["这是我的支付宝哦！"]
 	}, {
-		"selector": "#bitcoin",
-		"text": ["这是我的比特币账号！"]
-	}, {
 		"selector": ".post_share",
 		"text": ["好东西要让更多人知道才行哦。", "觉得文章有帮助的话，可以分享给更多需要的朋友呢。"]
 	}, {
-		"selector": ".post_share .social-share-icon .icon-weibo",
+		"selector": ".post_share .social-share-icon .icon-weibo a",
 		"text": ["微博？来分享一波喵！"]
 	}, {
-		"selector": ".post_share .social-share-icon .icon-wechat",
+		"selector": ".post_share .social-share-icon .icon-wechat a",
 		"text": ["分享到微信吧！"]
 	}, {
-		"selector": ".post_share .social-share-icon .icon-qq",
+		"selector": ".post_share .social-share-icon .icon-qq a",
 		"text": ["QQ 空间，一键转发，耶～"]
 	}, {
-		"selector": ".post_share .social-share-icon .icon-twitter",
+		"selector": ".post_share .social-share-icon .icon-twitter a",
 		"text": ["Twitter？好像是不存在的东西？"]
 	}, {
-		"selector": ".post_share .social-share-icon .icon-facebook",
+		"selector": ".post_share .social-share-icon .icon-facebook a",
 		"text": ["emmm…FB 好像也是不存在的东西？"]
 	}, {
-		"selector": ".next-post .pull_right']",
+		"selector": "#pagination .next-post, #pagination .prev-post']",
 		"text": ["来看看下一篇文章吧。", "点它可以看下一篇文章哦！", "要翻到下一篇文章吗？"]
 	}, {
-		"selector": ".prev-post .pull_left']",
+		"selector": "#pagination .next-post, #pagination .prev-post']",
 		"text": ["来看看上一篇文章吧。", "点它可以看上一篇文章哦！", "要翻到上一篇文章吗？"]
 	}, {
-		"selector": ".extend.next",
+		"selector": ".fa-chevron-right",
 		"text": ["去下一页看看吧。", "点它可以前进哦！", "要翻到下一页吗？"]
 	}, {
-		"selector": ".extend.prev",
+		"selector": ".fa-chevron-left",
 		"text": ["去上一页看看吧。", "点它可以后退哦！", "要翻到上一页吗？"]
 	}, {
-		"selector": "input.vnick",
+		"selector": "#wl-nick",
 		"text": ["该怎么称呼你呢？", "留下你的尊姓大名！"]
 	}, {
-		"selector": ".vmail",
+		"selector": "#wl-mail",
 		"text": ["可留下你的邮箱，不然就是无头像人士了！", "记得设置好 Gravatar 头像哦！", "为了方便通知你最新消息，一定要留下邮箱！"]
 	}, {
-		"selector": ".vlink",
+		"selector": "#wl-link",
 		"text": ["快快告诉我你的家在哪里，好让我去参观参观！"]
 	}, {
-		"selector": ".veditor",
+		"selector": ".wl-editor",
 		"text": ["欢迎留下您的宝贵留言～", "要说点什么吗？", "觉得博客不错？快来留言和主人交流吧！"]
 	}, {
-		"selector": ".vcontrol a",
+		"selector": ".wl-actions a",
 		"text": ["你会不会熟练使用 Markdown 呀？", "使用 Markdown 让评论更美观吧～"]
 	}, {
-		"selector": ".vemoji-btn",
-		"text": ["要插入一个萌萌哒的表情吗？", "要来一发表情吗？"]
-	}, {
-		"selector": ".vpreview-btn",
-		"text": ["要预览一下你的发言吗？", "快看看你的评论有多少负熵！"]
-	}, {
-		"selector": ".vsubmit",
+		"selector": ".wl-btn primary",
 		"text": ["评论没有审核，要对自己的发言负责哦～", "要提交了吗，请耐心等待回复哦～"]
 	}, {
-		"selector": ".vcontent",
+		"selector": ".wl-cards",
 		"text": ["哇，快看看这个精彩评论！", "如果有疑问，请尽快留言哦～"]
 	}],
 	"click": [{
 		"selector": "#waifu #live2d",
 		"text": ["是…是不小心碰到了吧…", "你在抚摸我的头吗？", "你看到我的月亮伙伴了吗？", "呜！好像被谁碰到了⌇●﹏●⌇", "我是不是超级可爱？嘿嘿～", "再摸头人家长不高了呢！", "不如到歌单页面听听歌吧～", "遇到问题了就看看右边按钮吧"]
 	}, {
-		"selector": ".veditor",
+		"selector": ".wl-editor",
 		"text": ["要吐槽些什么呢？", "一定要认真填写哟～", "有什么想说的吗？"]
 	}, {
-		"selector": ".vsubmit",
+		"selector": ".wl-btn primary",
 		"text": ["输入验证码就可以提交评论啦～"]
 	}],
 	"seasons": [{
 		"date": "01/01",
 		"text": "<span>元旦</span>了呢，新的一年又开始了，今年是{year}年～"
 	}, {
+		"date": "01/22",
+		"text": ["今天是主人的生日！一起为主人祝贺吧～", "希望主人能永永远远开心～"]
+	},{
 		"date": "02/14",
 		"text": "又是一年<span>情人节</span>，{year}年找到对象了嘛～"
 	}, {
