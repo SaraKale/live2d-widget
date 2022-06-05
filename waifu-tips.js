@@ -1,5 +1,5 @@
 /*
- * live2d-widget v0.0.3
+ * live2d-widget v0.0.4
  * https://github.com/sarakale/live2d-widget
  */
 
