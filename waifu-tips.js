@@ -1,5 +1,5 @@
 /*
- * live2d-widget v0.0.4
+ * live2d-widget v0.0.5
  * https://github.com/sarakale/live2d-widget
  */
 
@@ -55,7 +55,7 @@ function loadWidget(config) {
 
 	(function registerEventListener() {
 		document.querySelector("#waifu-tool .fa-comment").addEventListener("click", showHitokoto);
-		document.querySelector("#waifu-tool .icon-bilibili").addEventListener("click", () => {
+		document.querySelector("#waifu-tool .fa-bilibili").addEventListener("click", () => {
 			open("https://space.bilibili.com/4197121"); //修改为你的B站地址
 		});
 		/**

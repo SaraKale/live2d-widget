@@ -6,26 +6,24 @@ live2D看板娘，基于 [live2d-widget](https://github.com/stevenjoezhang/live2
 
 ## 使用
 
-在 `<head>` 中加入下面两行，因为需要Font Awesome和iconfont支持，请确保相关样式表已在页面中加载，否则无法正常显示，如果网页中已经加载了 Font Awesome，就不要重复加载了，仅需要加载`iconfont`即可。
+在 `<head>` 中加入下面代码，因为需要Font Awesome v6支持，请确保相关样式表已在页面中加载，否则无法正常显示，如果网页中已经加载了 Font Awesome，就不要重复加载了。
 
 ```html
-<link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/SaraKale/sarakale.github.io/blog/css/iconfont/iconfont.css">
+<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/6.1.1/css/fontawesome.min.css">
 ```
-iconfont是来自 [hexo-theme-nexmoe](https://github.com/nexmoe/hexo-theme-nexmoe)，因为要加载B站图标。
 
 然后将这一行代码加入 `<head>` 或 `<body>`，即可展现出效果：
 ```html
-<script src="https://fastly.jsdelivr.net/gh/sarakale/live2d-widget@latest/autoload.js"></script>
+<script src="https://npm.elemecdn.com/sarakale-live2dwidget@latest/autoload.js"></script>
 ```
 
 一般在主题的"layout/_layout.swig"中修改，我是使用了[hexo-theme-butterfly](https://github.com/jerryc127/hexo-theme-butterfly)这个主题，所以要在 `butterfly/_config.yml` 文件的`Inject`处添加，注意空格缩进：
 ```js
 inject:
   head:
-    - <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/SaraKale/sarakale.github.io/blog/css/iconfont/iconfont.css">
+    - <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/6.1.1/css/fontawesome.min.css">
   bottom:
-    - <script src="https://fastly.jsdelivr.net/gh/sarakale/live2d-widget@latest/autoload.js"></script>
+    - <script src="https://npm.elemecdn.com/sarakale-live2dwidget@latest/autoload.js"></script>
 ```
 
 最后在博客根目录下打开`_config.yml`添加下面：
@@ -46,7 +44,7 @@ live2d:
 `waifu-tips.js` 第17行到27行之间可以修改图标样式名，我这里删除了原来的fa-paper-plane，因为不需要这类所以改成了B站，也可以自行增添。
 在59行修改为你的B站地址：
 ```js
-document.querySelector("#waifu-tool .icon-bilibili").addEventListener("click", () => {
+document.querySelector("#waifu-tool .fa-bilibili").addEventListener("click", () => {
   open("改成你的B站地址");
 });
 ```
