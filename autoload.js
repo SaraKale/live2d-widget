@@ -1,6 +1,6 @@
-//live2d-widget v0.0.5
+//live2d-widget v0.0.7
 // 注意：live2d_path 参数应使用绝对路径
-const live2d_path = "https://npm.elemecdn.com/sarakale-live2dwidget@0.0.5/";
+const live2d_path = "https://npm.elemecdn.com/sarakale-live2dwidget@0.0.7/";
 
 // 封装异步加载资源的方法
 function loadExternalResource(url, type) {

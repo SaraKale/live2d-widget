@@ -1,0 +1,19 @@
+{
+  "name": "sarakale-live2dwidget",
+  "version": "0.0.7",
+  "description": "live2D看板娘，基于 [live2d-widget](https://github.com/stevenjoezhang/live2d-widget) 修改，专为自己博客使用，如果您有需要，也可以下载使用。",
+  "main": "autoload.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaraKale/live2d-widget.git"
+  },
+  "author": "SaraKale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaraKale/live2d-widget/issues"
+  },
+  "homepage": "https://github.com/SaraKale/live2d-widget#readme"
+}

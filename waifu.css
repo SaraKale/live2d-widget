@@ -114,6 +114,10 @@
     color: #5b6c7d;
 	background-color: rgba(255, 255, 255, 0);
 }
+[data-theme='dark'] #waifu-tool .fa-bilibili:before {
+    color: #5b6c7d;
+	background-color: rgba(255, 255, 255, 0);
+}
 [data-theme='dark'] #waifu-tool span:hover {
 	color: #0684bd; 
 }
@@ -121,7 +125,6 @@
 	color: #0684bd; /* #34495e */
 }
 [data-theme='dark'] #waifu #live2d { opacity: 0.7; }
-
 [data-theme='dark'] #waifu-tips {
     color: #fff;
     background-color: #47494c;
@@ -130,11 +133,11 @@
 }
 
 /* bilibili */
-.nexmoefont {
-    font-family: nexmoefont!important;
-    font-size: 20px;
-    font-style: normal;
-    -webkit-font-smoothing: antialiased;
+.fa-bilibili:before {
+    color: #000000;
+    text-shadow: 0 0 #000;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 @keyframes shake {
